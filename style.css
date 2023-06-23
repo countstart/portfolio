@@ -1,0 +1,464 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #010A26;
+    color: white;
+}
+
+/* .............navbar........... */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid white; */
+    padding: 10px 20px;
+    align-items: center;
+}
+.navbar nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar nav li{
+    padding: 0px 20px;
+    margin: 12px;
+    list-style-type: none;
+}
+.navbar img{
+    height: 8vh;
+}
+
+.navbar nav li a{
+    text-decoration: none;
+    font-size: large;
+}
+.navbar nav li a:hover{
+    color:red;
+}
+
+/* ......................intro......................... */
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 120px 30px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    /* border: 2px solid white; */
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+.intro div{
+    margin: 20px;
+}
+.intro img{
+    height: 50vh;
+    border-radius: 12px;
+    box-shadow:3px 3px 20px 2px aqua,-3px -3px 20px 2px aqua;
+}
+.intro span{
+    color:bisque;
+}
+
+/* ................................aboutme....................... */
+#aboutme{
+    margin: 40px 0px;
+}
+#aboutme div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    /* border: 2px solid white; */
+    margin: 1% 0%;
+    width: 100%;
+}
+#aboutme #myimage{
+    width: 30%;
+    border-radius: 12px;
+    margin: 20px;
+}
+
+#aboutme .coding-profiles{
+    /* display: inline; */
+    justify-content: left;
+    /* border: 2px solid white; */
+}
+#aboutme .coding-profiles img{
+    width: 40px;
+    margin: 12px;
+}
+#aboutme .aboutpara{
+    width: 50%;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 12px;
+    margin: 20px;
+
+}
+#aboutme h1{
+    text-align: center;
+    color:chartreuse;
+}
+
+/* ......................education.......................... */
+#education{
+    text-align: center;
+    margin: 40px 0px;
+}
+#edu{
+    margin: 1% 0%;
+}
+#education #edu{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-evenly;
+    /* border: 2px solid white; */
+}
+#education #edu div{
+    width: 20%;
+    border: 2px solid white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 150%;
+    padding: 1%;
+}
+
+#education div img{
+    width: 80%;
+    margin: 20px;
+    border-radius: 12px;
+}
+#education h1{
+    color:chartreuse;
+}
+#education div h3{
+    color: antiquewhite;
+}
+#education #edu div:hover{
+    cursor: pointer;
+}
+
+/*...................... project...................... */
+#projects{
+    text-align: center;
+    margin: 50px 0px;
+}
+#projects .container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1% 0%;
+    font-size: 120%;
+    flex-wrap: wrap;
+}
+#projects .container .images{
+    width: 40%;
+}
+#projects .container .images img{
+    width: 40%;
+    margin: 1%;
+}
+
+#projects .container .tech img{
+    width: 5%;
+    margin: 1%;
+}
+#projects .container .container2{
+    text-align: initial;
+    line-height: 150%;
+    width: 40%;
+}
+#projects .container .container2 button{
+    padding: 12px;
+    border: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: red;
+    /* color: black; */
+    font-weight: 600;
+}
+#projects h1{
+    color:chartreuse;
+}
+#projects .container .container2 button a{
+    background-color: red;
+    text-decoration: none;
+}
+
+
+/* ..................skills........................... */
+#skills{
+    text-align: center;
+}
+#skills img{
+    width: 50%;
+    border-radius: 12px;
+}
+#skills .allskills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 1%;
+    font-size: 90%;
+}
+#skills .allskills div{
+    width: 40%;
+    /* border: 2px solid white; */
+    margin: 1%;
+    padding: 1%;
+}
+#skills h1{
+    color:chartreuse;
+}
+
+
+/* ..............interest................ */
+#interest{
+    text-align: center;
+    margin: 30px 0px;
+}
+#interest #photography{
+    /* border: 2px solid white; */
+    margin: auto;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; */
+    /* text-align: center; */
+}
+#interest #photography img{
+    height: 30vh;
+    margin: 20px;
+    /* height: min-content; */
+    border-radius: 15px;
+    transition: 0.5s ease-out;
+}
+#interest #photography img:hover{
+    transform:scale(1.2);
+}
+
+#interest h1,h2{
+    margin: 12px;
+}
+#interest h1{
+    color:chartreuse;
+}
+/*............ footer............... */
+#contactme h1{
+    background-color: black;
+    padding: 12px 0px;
+}
+footer{
+    text-align: center;
+}
+footer img{
+    width: 30px;
+}
+footer .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    height: 30vh;
+}
+footer .details div{
+    margin: 20px;
+    background-color: black;
+}
+footer .btn{
+    background-color: black;
+}
+footer button{
+    padding: 20px;
+    background-color: red;
+    border: transparent;
+    border-radius: 15px;
+    cursor: pointer;
+    /* font-size: 15px; */
+    font-weight: 600;
+}
+footer button a{
+    background-color: red;
+    text-decoration: none;
+}
+
+/*.............. media queries................. */
+
+#cross{
+    display: none;
+}
+#hidenav{
+    display: none;
+}
+/* #skills .allskills #dsahide{
+    display: none;
+} */
+@media (max-width:1000px) {
+    .navbar img{
+        height: 6vh;
+    }
+    .navbar nav li{
+        padding: 0px 10px;
+        /* border: 2px solid white; */
+    }
+    .navbar ul{
+        height: 100vh;
+        width: 300px;
+        /* border: 2px solid white; */
+        z-index: 12;
+        position: fixed;
+        top: 0px;
+        right: -300px;
+    }
+    #cross{
+        display: initial;
+        cursor:default;
+    }
+    #cross:hover{
+        color: red;
+    }
+    #hidenav{
+        display: initial;
+        cursor:default;
+    }
+    #hidenav:hover{
+        color: red;
+    }
+    .navbar nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+    }
+    #navbarli.active{
+        right: 0px;
+    }
+    #interest #photography img{
+        height: 20vh;
+    }
+    .intro img{
+        height: 40vh;
+    }
+}
+@media (max-width:770px) {
+    .intro{
+        font-size: 20px;
+    }
+    .intro img{
+        height: 40vh;
+    }
+    #education #edu div{
+        font-size: 12px;
+    }
+    #projects button,p{
+        font-size: 12px;
+    }
+    #projects .container .container2 button{
+        padding: 8px;
+    }
+    #skills .allskills{
+        font-size: 12px;
+    }
+    #interest #photography img{
+        height: 14vh;
+    }
+    footer .btn{
+        padding: 15px;
+    }
+}
+@media (max-width:570px) {
+    .intro img{
+        height: 30vh;
+    }
+    #aboutme p{
+        font-size: 12px;
+    }
+    #education #edu div{
+        font-size: 9px;
+    }
+    #education div img{
+        width: 60%;
+    }
+    #projects .container{
+        flex-direction: column;
+    }
+    #projects .container .images{
+        width: 60%;
+    }
+    #projects .container .container2{
+        text-align: center;
+        line-height: 150%;
+        width: 100%;
+    }
+    #projects p{
+        font-size: 12px;
+    }
+    #skills .allskills{
+        font-size: 9px;
+    }
+    #interest #photography img{
+        height: 12vh;
+    }
+    #contactme .btn button{
+        padding: 10px;
+        font-size: 9px;
+    }
+    #contactme p{
+        font-size: 9px;
+    }
+}
+@media (max-width:470px) {
+    .intro h1{
+        font-size: 30px;
+        line-height: 120%;
+    }
+    .intro img{
+        height: 20vh;
+    }
+    #education #edu div h3{
+        font-size: 8px;
+    }
+    #education #edu div p{
+        font-size: 5px;
+    }
+    #education div img{
+        width: 50%;
+    }
+    #interest #photography img{
+        height: 8vh;
+        margin: 12px;
+    }
+    #skills .allskills p{
+        font-size: 6px;
+    }
+    #contactme img{
+        width: 15px;
+    }
+    footer .details div{
+        margin: 10px;
+    }
+    .navbar ul{
+        width: 200px;
+    }
+    #aboutme p{
+        font-size: 9px;
+    }
+    #aboutme .coding-profiles img{
+        width: 20px;
+        margin: 9px;
+    }
+    #projects p{
+        font-size: 9px;
+    }
+}
+@media (max-width:360px) {
+    #interest #photography img{
+        border-radius: 6px;
+    }
+    #contactme p{
+       font-size: 5px;
+    }
+}
